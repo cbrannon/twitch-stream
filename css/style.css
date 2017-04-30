@@ -1,0 +1,44 @@
+/* remove hamburger selector from nav bar */
+.mdl-layout .mdl-layout__drawer-button {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mdl-list__item {
+  height: 100px;
+}
+
+.mdl-layout__tab {
+  text-decoration: none;
+}
+
+.material-icons.orange600 {
+  color: #FB8C00;
+}
+
+.all-list {
+  margin: auto;
+  max-width: 700px;
+  min-width: 320px;
+}
+
+/* Card styles */
+.demo-card-wide.mdl-card {
+  width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background-position: center center;
+	background-size: cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-card__title {
+  background-color: black;
+}
